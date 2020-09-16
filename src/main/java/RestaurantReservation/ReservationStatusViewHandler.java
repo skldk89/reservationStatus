@@ -26,7 +26,7 @@ public class ReservationStatusViewHandler {
                 // view 객체에 이벤트의 Value 를 set 함
                 reservationStatus.setId(reservationRequested.getId());
                 reservationStatus.setReservationId(reservationRequested.getReservationId());
-                reservationStatus.setTrainerId(reservationRequested.getTrainerId());
+                reservationStatus.setOwnerId(reservationRequested.getOwnerId());
                 // view 레파지 토리에 save
                 reservationStatusRepository.save(reservationStatus);
             }

@@ -11,7 +11,7 @@ public class ReservationStatus {
         @GeneratedValue(strategy=GenerationType.AUTO)
         private Long id;
         private Long reservationId;
-        private Long trainerId;
+        private Long ownerId;
         private String reservationDate;
         private String status;
         private String customerName;
@@ -31,12 +31,12 @@ public class ReservationStatus {
         public void setReservationId(Long reservationId) {
             this.reservationId = reservationId;
         }
-        public Long getTrainerId() {
-            return trainerId;
+        public Long getOwnerId() {
+            return ownerId;
         }
 
-        public void setTrainerId(Long trainerId) {
-            this.trainerId = trainerId;
+        public void setOwnerId(Long ownerId) {
+            this.ownerId = ownerId;
         }
         public String getReservationDate() {
             return reservationDate;
