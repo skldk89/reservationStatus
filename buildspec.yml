@@ -3,8 +3,8 @@ version: 0.2
 
 env:
   variables:
-    IMAGE_REPO_NAME: "admin03-reservationstatus"
-    _PROJECT_NAME: "reservationstatus"
+    IMAGE_REPO_NAME: admin03-reservationstatus
+    _PROJECT_NAME: reservationstatus
 
 phases:
   install:
